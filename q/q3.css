@@ -21,7 +21,7 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url("qbg.png");
+    background-image: url("object/qbg.png");
     background-color: repeat-x;
 }
 
