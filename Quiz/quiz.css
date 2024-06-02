@@ -1,0 +1,40 @@
+html{
+    background-color: #89CFF0;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #89CFF0;
+}
+
+.titleq{
+    font-size: 50px;
+}
+.q{
+    font-size: 25px;
+}
+
+.quiz{
+    width: 85vw;
+    height: 85vh;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+}
+
+.question-slide{
+    display: none;
+}
+.question-slide.active{
+    display: block;
+}
+
+.form{
+    font-size: 20px;
+}

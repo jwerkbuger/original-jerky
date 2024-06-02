@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>퀴즈</title>
+    <link rel="stylesheet" href="q2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="quiz">
+        <div class="question-slide" id="question1">
+            <p class="titleq">(문제종류)문제1</p>
+            <p class="q"></p><br>
+            <form class="form">
+                <input type="radio" name="answer1" value="1"/> 1번<br>
+                <input type="radio" name="answer1" value="2"/> 2번<br>
+                <input type="radio" name="answer1" value="3"/> 3번<br>
+                <input type="radio" name="answer1" value="4"/> 4번<br><br>
+            </form>
+            <button onclick="checkAnswer('1')">답 확인</button>
+        </div>
+
+        <div class="question-slide" id="question2">
+            <p class="titleq">(문제종류)문제2</p>
+            <p class="q"></p><br>
+            <form class="form">
+                <input type="radio" name="answer2" value="1"/> 1번<br>
+                <input type="radio" name="answer2" value="2"/> 2번<br>
+                <input type="radio" name="answer2" value="3"/> 3번<br>
+                <input type="radio" name="answer2" value="4"/> 4번<br><br>
+            </form>
+            <button onclick="checkAnswer('2')">답 확인</button>
+        </div>
+
+        <div class="question-slide" id="end">
+            <p id="result"></p>
+        </div>
+    </div>
+    <script src="q2.js"></script>
+</body>
+</html>

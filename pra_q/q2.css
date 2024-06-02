@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.question-slide {
+    display: none;
+}
+
+.question-slide.active {
+    display: block;
+}
+
+.titleq {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.q {
+    font-size: 16px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

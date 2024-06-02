@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Galmuri14;
+    font-style: normal;
+    font-stretch: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Galmuri14 Regular'),
+        url('object/Galmuri14.woff2') format('woff2'),
+        url('object/Galmuri14.ttf') format('truetype');
+}
+
+html{
+    font-family: Galmuri14;
+    background-color: #89CFF0;
+}
+
+body{
+    font-family: Galmuri14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("qbg.png");
+    background-color: repeat-x;
+}
+
+#quiz-container{
+    width: 50vW;
+    height: 70vh;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+
+    text-align: center;
+}
+
+.slide{
+    display: none;
+}
+
+.slide.active{
+    display: block;
+}
+
+@keyframes fadeOut{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.warning.fade-out{
+    animation: fadeOut 0.3s forwards;
+}
+
+button{
+    padding: 15px 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+    background-color: #96d1ec;
+    border-color: #7ebcd8;
+    border-style: outset; /*ridge*/
+    color: black;
+}
+button:hover{
+    background-color: #77a5bb;
+    color: black;
+}
+
+/*
+.next-button{}
+.next-button:hover{}
+
+.prev-button{}
+.submit-button{}
+*/
+
+.score-list{
+    text-align: center;
+    align-items: center;
+    list-style-type: none;
+} /* 리스트 숫자 가운데 정렬 */
+
+.result-list-container1{float: left; width: 50%;}
+.result-list-container2{float: right; width: 50%;}
+
+.result-score{
+    display: block;
+}
